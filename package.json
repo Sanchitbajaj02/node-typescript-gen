@@ -1,10 +1,10 @@
 {
-  "name": "express-ts-generator",
+  "name": "node-typscript-gen",
   "version": "1.0.0",
   "description": "CLI tool to create Express applications written in Typescript!",
   "main": "index.js",
   "bin": {
-    "express-ts-generator": "index.js"
+    "node-typscript-gen": "index.js"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -40,10 +40,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sanchitbajaj02/express-ts-generator.git"
+    "url": "git+https://github.com/Sanchitbajaj02/node-typscript-gen.git"
   },
   "bugs": {
-    "url": "https://github.com/Sanchitbajaj02/express-ts-generator/issues"
+    "url": "https://github.com/Sanchitbajaj02/node-typscript-gen/issues"
   },
-  "homepage": "https://github.com/Sanchitbajaj02/express-ts-generator#readme"
+  "homepage": "https://github.com/Sanchitbajaj02/node-typscript-gen#readme"
 }

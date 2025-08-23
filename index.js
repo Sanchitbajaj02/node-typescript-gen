@@ -7,7 +7,7 @@ const chalk = require('chalk');
 const { generateProject } = require('./lib/generator');
 
 program
-  .name('express-ts-generator')
+  .name('node-typscript-gen')
   .description('CLI tool to create Express applications written in Typescript!')
   .version('1.0.0')
   .argument('[project-name]', 'Name of the project')
