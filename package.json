@@ -4,7 +4,7 @@
   "description": "CLI tool to create Express applications written in Typescript!",
   "main": "index.js",
   "bin": {
-    "express-ts-generator": "./index.js"
+    "express-ts-generator": "index.js"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -17,9 +17,11 @@
     "LICENSE"
   ],
   "scripts": {
+    "start": "node index.js",
     "prepublishOnly": "npm run build"
   },
   "author": "sanchitbajaj02",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^11.1.0",
