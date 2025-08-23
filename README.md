@@ -1,4 +1,4 @@
-# node-typscript-gen
+# node-typescript-gen
 
 A CLI tool to quickly create Express TypeScript applications by pulling from the official template repository and customizing it for your needs.
 
@@ -19,13 +19,13 @@ A CLI tool to quickly create Express TypeScript applications by pulling from the
 ### Global Installation
 
 ```bash
-npm install -g node-typscript-gen
+npm install -g node-typescript-gen
 ```
 
 ### Local Usage (npx)
 
 ```bash
-npx node-typscript-gen my-app
+npx node-typescript-gen my-app
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ npx node-typscript-gen my-app
 ### Basic Usage
 
 ```bash
-node-typscript-gen my-app
+node-typescript-gen my-app
 ```
 
 This will prompt you for:
@@ -48,7 +48,7 @@ This will prompt you for:
 You can specify a custom template repository URL:
 
 ```bash
-node-typscript-gen my-app --template https://github.com/yourusername/your-template.git
+node-typescript-gen my-app --template https://github.com/yourusername/your-template.git
 ```
 
 ### Interactive Mode
@@ -56,7 +56,7 @@ node-typscript-gen my-app --template https://github.com/yourusername/your-templa
 If you don't provide a project name, the CLI will guide you through all options:
 
 ```bash
-node-typscript-gen
+node-typescript-gen
 ```
 
 ## How It Works
@@ -174,5 +174,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-If you encounter any issues or have questions, please [open an issue](https://github.com/Sanchitbajaj02/node-typscript-gen/issues) on GitHub.
+If you encounter any issues or have questions, please [open an issue](https://github.com/Sanchitbajaj02/node-typescript-gen/issues) on GitHub.
 
