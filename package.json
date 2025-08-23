@@ -1,6 +1,6 @@
 {
   "name": "node-typscript-gen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool to create Express applications written in Typescript!",
   "main": "index.js",
   "bin": {
