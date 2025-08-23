@@ -15,9 +15,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "start": "node index.js",
-    "demo": "node demo.js",
-    "prepublishOnly": "npm run build"
+    "start": "node index.js"
   },
   "author": "sanchitbajaj02",
   "license": "MIT",
