@@ -1,6 +1,6 @@
-# create-express-app
+# express-ts-generator
 
-A CLI tool to quickly create Express TypeScript applications with a well-structured template.
+A CLI tool to quickly create Express TypeScript applications by pulling from the official template repository and customizing it for your needs.
 
 ## Features
 
@@ -19,13 +19,13 @@ A CLI tool to quickly create Express TypeScript applications with a well-structu
 ### Global Installation
 
 ```bash
-npm install -g create-express-app
+npm install -g express-ts-generator
 ```
 
 ### Local Usage (npx)
 
 ```bash
-npx create-express-app my-app
+npx express-ts-generator my-app
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ npx create-express-app my-app
 ### Basic Usage
 
 ```bash
-create-express-app my-app
+express-ts-generator my-app
 ```
 
 This will prompt you for:
@@ -43,13 +43,25 @@ This will prompt you for:
 - Version number
 - Whether to install dependencies automatically
 
+### Using Custom Templates
+
+You can specify a custom template repository URL:
+
+```bash
+express-ts-generator my-app --template https://github.com/yourusername/your-template.git
+```
+
 ### Interactive Mode
 
 If you don't provide a project name, the CLI will guide you through all options:
 
 ```bash
-create-express-app
+express-ts-generator
 ```
+
+## How It Works
+
+The CLI pulls the latest template from the official [express-typescript-template](https://github.com/Sanchitbajaj02/express-typescript-template) repository, removes unnecessary files (LICENSE, .env.example, etc.), and customizes it for your project.
 
 ## What Gets Created
 
@@ -122,6 +134,16 @@ npm run dev
 
 Your server will start on `http://localhost:3000`
 
+## Demo
+
+You can run a demo to see the generator in action:
+
+```bash
+npm run demo
+```
+
+This will create a sample project called `demo-express-app` to demonstrate the functionality.
+
 ## Available Scripts
 
 - `npm run dev` - Start development server with hot reload
@@ -152,5 +174,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/create-express-app/issues) on GitHub.
+If you encounter any issues or have questions, please [open an issue](https://github.com/Sanchitbajaj02/express-ts-generator/issues) on GitHub.
 

@@ -11,10 +11,11 @@ program
   .description('CLI tool to create Express applications written in Typescript!')
   .version('1.0.0')
   .argument('[project-name]', 'Name of the project')
-  .action(async (projectName) => {
+  .option('-t, --template <url>', 'Custom template repository URL')
+  .action(async (projectName, options) => {
     try {
       const answers = await promptForProjectDetails(projectName);
-      await generateProject(answers);
+      await generateProject(answers, options.template);
     } catch (error) {
       console.error(chalk.red('Error:'), error.message);
       process.exit(1);

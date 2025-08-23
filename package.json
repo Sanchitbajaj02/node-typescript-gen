@@ -10,14 +10,13 @@
     "node": ">=18.0.0"
   },
   "files": [
-    "bin/",
     "lib/",
-    "template/",
     "README.md",
     "LICENSE"
   ],
   "scripts": {
     "start": "node index.js",
+    "demo": "node demo.js",
     "prepublishOnly": "npm run build"
   },
   "author": "sanchitbajaj02",
@@ -27,7 +26,8 @@
     "commander": "^11.1.0",
     "fs-extra": "^11.2.0",
     "inquirer": "^8.2.6",
-    "ora": "^5.4.1"
+    "ora": "^5.4.1",
+    "simple-git": "^3.22.0"
   },
   "keywords": [
     "express",
