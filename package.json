@@ -40,7 +40,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Sanchitbajaj02/express-ts-generator.git"
+    "url": "git+https://github.com/Sanchitbajaj02/express-ts-generator.git"
   },
   "bugs": {
     "url": "https://github.com/Sanchitbajaj02/express-ts-generator/issues"
