@@ -8,8 +8,8 @@ const { generateProject } = require('./lib/generator');
 
 program
   .name('node-typescript-gen')
-  .description('CLI tool to create Express applications written in Typescript!')
-  .version('1.0.0')
+  .description('CLI tool to create Express 2x applications written in Typescript!')
+  .version('1.0.2')
   .argument('[project-name]', 'Name of the project')
   .option('-t, --template <url>', 'Custom template repository URL')
   .action(async (projectName, options) => {
@@ -62,6 +62,12 @@ async function promptForProjectDetails(projectName) {
       name: 'installDependencies',
       message: 'Would you like to install dependencies now?',
       default: true
+    },
+    {
+      type: 'confirm',
+      name: 'initializeRepository',
+      message: 'Would you like to initialize the repository?',
+      default: false
     }
   ];
 
